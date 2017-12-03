@@ -1,4 +1,4 @@
-package com.example.levi.a1234;
+//package com.example.levi.a1234; this changes with on your computer.
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
