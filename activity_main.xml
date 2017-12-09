@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.levi.gpacalculator.MainActivity">
+    tools:context="com.example.levi.gpacalculator.MainActivity"> //enter your info here as well.
 
     <EditText
         android:id="@+id/editText"
