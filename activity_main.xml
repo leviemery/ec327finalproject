@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.levi.gpacalculator.MainActivity"> //enter your info here as well. you also need to delete this.
+    tools:context="com.example.levi.gpacalculator.MainActivity">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/grade1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/credit1"
         android:layout_width="100dp"
         android:layout_height="47dp"
         android:layout_marginBottom="8dp"
@@ -41,7 +41,7 @@
         app:layout_constraintVertical_bias="0.33" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/grade2"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginBottom="8dp"
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.167" />
 
     <EditText
-        android:id="@+id/editText12"
+        android:id="@+id/credit2"
         android:layout_width="100dp"
         android:layout_height="47dp"
         android:layout_marginBottom="8dp"
@@ -74,7 +74,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/grade3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -91,7 +91,7 @@
         app:layout_constraintVertical_bias="0.329" />
 
     <EditText
-        android:id="@+id/editText14"
+        android:id="@+id/credit3"
         android:layout_width="100dp"
         android:layout_height="47dp"
         android:layout_marginBottom="8dp"
@@ -108,7 +108,7 @@
         app:layout_constraintVertical_bias="0.017" />
 
     <EditText
-        android:id="@+id/editText15"
+        android:id="@+id/grade4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -125,7 +125,7 @@
         app:layout_constraintVertical_bias="0.498" />
 
     <EditText
-        android:id="@+id/editText16"
+        android:id="@+id/credit4"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -142,7 +142,7 @@
         app:layout_constraintVertical_bias="0.659" />
 
     <EditText
-        android:id="@+id/editText17"
+        android:id="@+id/grade5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -159,7 +159,7 @@
         app:layout_constraintVertical_bias="0.659" />
 
     <EditText
-        android:id="@+id/editText18"
+        android:id="@+id/credit5"
         android:layout_width="100dp"
         android:layout_height="47dp"
         android:layout_marginBottom="8dp"
@@ -176,7 +176,7 @@
         app:layout_constraintVertical_bias="0.167" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttongpacalc"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
