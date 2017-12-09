@@ -8,6 +8,6 @@ public class MainActivity extends AppCompatActivity { //MainActivity is the name
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); //when it says package r does not exist it says to press alt-enter and that fixed it.
+        setContentView(R.layout.activity_main); //if it says r package is not included it is because your line 1 is wrong.
     }
 }
