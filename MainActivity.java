@@ -1,13 +1,29 @@
-//package com.example.levi.gpacalculator; use your package instead.
+package com.example.levi.gpacalculator;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity { //MainActivity is the name of your java file
-
+public class MainActivity extends AppCompatActivity {
+    private static Button buttongpacalc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); //if it says r package is not included it is because your line 1 is wrong.
+        setContentView(R.layout.activity_main);
+        OnClickButtonListener();
+    }
+    public void OnClickButtonListener(){
+        buttongpacalc = (Button)findViewById(R.id.buttongpacalc);
+        buttongpacalc.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent("com.example.levi.gpacalculator.ActivityAfterPush");
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 }
