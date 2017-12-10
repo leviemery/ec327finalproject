@@ -1,4 +1,3 @@
-//go to res, then layout and create a new blank activity to make this file then copy this to that.
 package com.example.levi.gpacalculator;
 
 import android.os.Bundle;
@@ -7,8 +6,11 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 public class ActivityAfterPush extends AppCompatActivity {
+    static TextView gpatext1;
+    static TextView totalcredtext1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,10 @@ public class ActivityAfterPush extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        gpatext1 = (TextView) findViewById(R.id.gpatext);
+        ActivityAfterPush.gpatext1.setText("Your GPA Is: "+MainActivity.resulttext);
+        totalcredtext1 = (TextView) findViewById(R.id.totalcredtext);
+        ActivityAfterPush.totalcredtext1.setText("Your Total Credits: "+MainActivity.totalcredit);
     }
 
 }
