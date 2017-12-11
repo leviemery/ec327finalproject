@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">gpacalculator</string>
+    <string name="title_activity_after_push">ActivityAfterPush</string>
+</resources>
